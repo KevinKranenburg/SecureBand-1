@@ -1,0 +1,55 @@
+@import 'default'
+
+.about
+	margin-bottom: 100px
+	position: relative
+
+	&::after
+		content: ''
+		position: absolute
+		bottom: -30px
+		left: 0
+		width: 80%
+		height: 1px
+		background: var(--border-color)
+
+	&__title
+		font-size: 1.6em
+		font-weight: 600
+		text-transform: capitalize
+
+	&__text
+		font-size: 1.22em
+		max-width: 950px
+
+.actions
+	margin-bottom: 100px
+	position: relative
+
+	&::after
+		content: ''
+		position: absolute
+		bottom: -30px
+		left: 0
+		width: 80%
+		height: 1px
+		background: var(--border-color)
+
+	& .action
+		margin-bottom: 50px
+
+		&__title
+			font-size: 1.6em
+			font-weight: 600
+			text-transform: capitalize
+			margin-bottom: 20px
+
+		&__text
+			font-size: 1.22em
+			max-width: 950px
+
+.latest-podcast
+	&__title
+		font-size: 1.6em
+		font-weight: 600
+		margin-bottom: 40px
